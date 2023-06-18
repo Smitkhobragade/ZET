@@ -1,6 +1,6 @@
 // import AiOutlineLinkedin from "react-icons/ai"
 // import Linkedin from "../images/linkedin.png"
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 const Aboutus = () => {
   return (
@@ -34,7 +34,7 @@ const Aboutus = () => {
       </div>
     </div>
 
-    <Fade>
+    {/* <Fade> */}
     <div className=" w-full flex flex-col items-center my-[100px]">
       <h2 className="md:text-4xl text-2xl my-8 font-bold text-black">Meet Our Investors</h2>
       <div className="flex flex-row flex-wrap items-center content-center justify-center">
@@ -44,8 +44,8 @@ const Aboutus = () => {
         <img src="https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FInvCompany4.9acb56c2.png&w=640&q=75" alt="" className="h-[140px] md:px-4 px-3 py-2 transition hover:scale-[1.1] "/>
       </div>
     </div>
-    </Fade>
-    <Fade>
+    {/* </Fade> */}
+    {/* <Fade> */}
     <div className="w-full flex flex-col items-center my-[100px] content-center">
       <div className="flex flex-row items-center flex-wrap self-center content-center w-[80%] justify-center">
         <span className=" flex flex-col items-center p-4 mx-10 self-center transition hover:scale-[1.1]">
@@ -90,9 +90,9 @@ const Aboutus = () => {
         </span>
       </div>
     </div>
-    </Fade>
+    {/* </Fade> */}
 
-    <Fade>
+    {/* <Fade> */}
     <div className="w-full flex flex-col items-center my-[100px] content-center">
       <h2 className="md:text-5xl text-3xl font-bold text-black">Meet Our Founders</h2>
       <p className="text-2xl text-black mt-2">Few Words from Founder Desk</p>
@@ -120,7 +120,7 @@ const Aboutus = () => {
         </span>
       </div>
     </div>
-    </Fade>
+    {/* </Fade> */}
 
     <div className="w-full my-2">
       <img src="https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAboutUsFooter.d2311d39.png&w=3840&q=100" alt="" />

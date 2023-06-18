@@ -1,10 +1,10 @@
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 
 const Hero = () => {
   return (
     <div className="bg-white text-black w-full -z-10">
-      <Fade>
+      {/* <Fade> */}
       <div className=" flex flex-row justify-center items-center min-h-[70vh] overflow-hidden ">
         <span className="flex flex-row bg-[#e9f4ff] border rounded-xl " >
           <span className=" p-8 flex flex-col items-start justify-center">
@@ -16,8 +16,8 @@ const Hero = () => {
           <img src="https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FHeroImgNew.d1d917dd.png&w=750&q=75" alt=""  className="h-[350px] scale-[1.1] relative -left-1 -height-3 sm:visible invisible"/>
         </span>
       </div>
-      </Fade>
-      <Fade>
+      {/* </Fade> */}
+      {/* <Fade> */}
       <div className="mt-8 text-center flex flex-col justify-center items-center">
         <h2 className="text-3xl font-bold mt-8">Top Brands On ZET</h2>
         <p className="text-xl mt-1">We are trusted by best brand in the country</p>
@@ -34,8 +34,8 @@ const Hero = () => {
           <img src="https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FBajaj.6a41ddf3.png&w=256&q=75" alt="" className="border rounded-lg m-2 p-1 transition hover:scale-[1.1]"/>
         </div>
       </div>
-      </Fade>
-      <Fade>
+      {/* </Fade> */}
+      {/* <Fade> */}
       <div className="w-full flex flex-col mt-16 justify-center items-center bg-gradient-to-b from-blue-100 to-white ">
         <h2 className="text-4xl font-bold mt-8">Products On ZET</h2>
         <div className="flex flex-row flex-wrap justify-center mt-16">
@@ -69,7 +69,7 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      </Fade>
+      {/* </Fade> */}
 
       {/* <div className="bg-blue-800 h-[500px] flex justify-center items-center -skew-x-12 -rotate-12 w-[120%] mt-[100px] relative -left-[5%]">
         <div className="flex flex-row items-center bg-blue-500 rounded w-[65%] justify-between ">
@@ -77,7 +77,7 @@ const Hero = () => {
           <div className="skew-x-12 rotate-12 ">HELLO WORLD</div>
         </div>
       </div> */}
-      <Fade>
+      {/* <Fade> */}
       <div className="flex flex-col text-center mt-12 justify-center items-center bg-gradient-to-t from-blue-100 to-white flex-wrap">
         <h2 className="text-3xl mt-8 font-bold mb-8">THE ZET EFFECT</h2>
         <span className=" w-[90%] flex flex-row justify-center items-center content-center text-center my-8 flex-wrap  gap-1 ">
@@ -86,8 +86,8 @@ const Hero = () => {
           <p className="text-xl self-center border p-8 w-[350px] rounded-lg m-1 shadow-2xl transition hover:scale-[1.1]">We helped customers in more than 50 cities to get their first financial product</p>
         </span>
       </div>
-      </Fade>
-      <Fade>
+      {/* </Fade> */}
+      {/* <Fade> */}
       <div className="flex  flex-col lg:flex-row justify-center items-center mt-12">
         <div className="flex flex-col ml-8">
           <h2 className="text-3xl font-bold mb-6">Why to choose us?</h2>
@@ -127,8 +127,8 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      </Fade>
-      <Fade>
+      {/* </Fade> */}
+      {/* <Fade> */}
       <div className="flex flex-col justify-center items-center mt-12 pb-10">
         <h2 className="text-3xl font-bold mt-12 w-[95%]">Start Earning in 3 Easy Steps</h2>
         <p className="text-xl w-[95%]">We have create the app the make your earning easy</p>
@@ -152,7 +152,7 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      </Fade>
+      {/* </Fade> */}
 
     </div>
   )

@@ -4,7 +4,7 @@ import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 import zetlogo from '../images/zetlogo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 const Navbar = () => {
 
